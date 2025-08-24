@@ -1,80 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ejercicio CSS</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Ejercicios Selectores y Modelo de Caja</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi sitio web</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-        
-    
-    <main>
-        <section>
-            <h2>Sección 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Odio et sunt assumenda quibusdam ducimus. Possimus temporibus quidem itaque, 
-                adipisci autem provident ut eos aliquam suscipit tenetur modi harum dicta veritatis.</p>
+  <h1>Guía de Ejercicios</h1>
 
-            <p class="especial">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-        </section>
-        <section>
-            <h2>Sección 2</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Possimus sed assumenda sit ipsum ratione praesentium reiciendis earum quod maxime. 
-                Officiis architecto amet accusantium tempora ex possimus sunt exercitationem repellat repudiandae..</p>
-        </section>
+   <section class="ej1">
+    <h2>Ejercicio 1: Selectores combinadores optimizados</h2>
+    <div>
+      <p>Párrafo dentro de div</p>
+      <section>
+        <p>Párrafo dentro de section</p>
+      </section>
+    </div>
 
-        <article class="card">
-            <img src="galeria(1)/galeria/imagenes/Android19.webp"Android19 alt="Descripción de la imagen" class="card-image">
-            <div class="card-content">
-            <h3 class="card-title">Android19
-            <p class="card-text">Un robot u organismo de apariencia humana que, además de imitar su físico, 
-                emula también ciertas partes de su comportamiento.
-                El uso de este término se ve más que todo en las localizaciones del anime y manga. 
-                <div><a href="#" class="card-link">Ver más</a></div>
-              
+    <h3>Título</h3>
+    <p>Párrafo hermano adyacente</p>
+    <p>Párrafo hermano general</p>
+  </section>
 
-        </article>
-        
-        <article class="card">
-            <img src="galeria(1)/galeria/imagenes/17_Artwork.webp"Android17 alt="Descripción de la imagen" class="card-image">
-            <h3 class="card-title">Android17
-            <p class="card-text">Un robot u organismo de apariencia humana que, además de imitar su físico, 
-            emula también ciertas partes de su comportamiento.
-            El uso de este término se ve más que todo en las localizaciones del branime y manga.
-            <div><a href="#" class="card-link">Ver más</a></div>
-        
+    <section class="ej2">
+    <h2>Ejercicio 2: Modelo de caja</h2>
+    <div class="container">
+      <div class="box">Caja 1</div>
+      <div class="box">Caja 2</div>
+      <div class="box">Caja 3</div>
+    </div>
+  </section>
 
-        </article>
+    <section class="ej3">
+    <h2>Ejercicio 3: Menú de navegación</h2>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </section>
 
-        <article class="card">
-            <img src="galeria(1)/galeria/imagenes/Gran_kaio_sama12.webp"Gran kaio sama12 alt="Descripción de la imagen" class="card-image">
-            <h3 class="card-title">Gran kaio sama12
-            <p class="card-text">Un robot u organismo de apariencia humana que, además de imitar su físico, 
-            emula también ciertas partes de su comportamiento.
-            El uso de este término se ve más que todo en las localizaciones del branime y manga.
-            <div><a href="#" class="card-link">Ver más</a></div>
-        
-
-        </article>
-            
-
-    </main>
-    
-    <footer>
-        <p>© 2025 Geraldo Rojas. Todos los derechos reservados.</p> 
-    </footer>
+    <section class="ej4">
+    <h2>Ejercicio 4: Tarjeta de perfil</h2>
+    <div class="perfil">
+      <img src="is-this-a-good-pfp-v0-qm3p4sotkjgd1.webp" alt="Foto perfil">
+      <h3>Geraldo Rojas</h3>
+      <p>Desarrollador Frontend</p>
+      <button>Seguir</button>
+    </div>
+  </section>
 </body>
 </html>
